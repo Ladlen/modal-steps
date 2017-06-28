@@ -1,0 +1,35 @@
+<?php
+
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
+
+?>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Окна</title>
+
+    <link rel="stylesheet" href="css/window.css">
+
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/window.js"></script>
+
+</head>
+<body>
+
+<div id="window">
+    <div id="widget_meedget" class="meedgetwhite roundcorner">
+        <ul>
+            <li><a class="meedget_calc" href="javascript:void(0);"><span>Калькулятор</span></a></li>
+            <li><a class="meedget_online" href="javascript:void(0);"><span>Вызвать замерщика</span></a></li>
+            <li><a class="meedget_bonus" href="javascript:void(0);"><span>Подарки и скидки!</span></a></li>
+            <li><a class="meedget_gallery" href="javascript:void(0);"><span>Наши работы</span></a></li>
+        </ul>
+        <a class="close_meedget" href="javascript:void(0);" style="display: block;">свернуть</a>
+        <a class="open_meedget" href="javascript:void(0);" style="display: none;"></a>
+    </div>
+</div>
+
+</body>
+</html>

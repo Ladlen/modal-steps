@@ -1,0 +1,122 @@
+#window {
+    color: #999999;
+    /*font-family: "Raleway",sans-serif;*/
+    font-weight: 400;
+    text-rendering: optimizelegibility;
+    overflow: hidden;
+}
+
+#widget_meedget {
+    font-family: arial;
+    font-size: 14px;
+    position: fixed;
+    right: 0;
+    top: 30%;
+    z-index: 10000;
+}
+
+#meedget_block, #meedget_block div, #widget_meedget, a.close_meedget {
+    box-sizing: content-box;
+}
+
+#widget_meedget {
+    opacity: 0.9;
+}
+
+#widget_meedget ul {
+    margin: 0;
+    padding: 0;
+}
+
+#widget_meedget ul > li, p.h2 {
+    text-transform: uppercase;
+}
+
+#widget_meedget ul > li {
+    background: rgb(15, 138, 99) none repeat scroll 0 0;
+    border-left: 1px solid rgb(35, 158, 119);
+    border-top: 1px solid rgb(35, 158, 119);
+    box-sizing: border-box;
+    color: #444;
+    font-weight: 700;
+    list-style: outside none none;
+    margin: 0;
+    padding: 17px;
+    text-decoration: none;
+    width: 100%;
+}
+
+#widget_meedget ul > li {
+    text-align: left;
+}
+
+#widget_meedget ul > li, #widget_meedget ul > li > a, a.close_meedget, a.meedget_back_link, a.meedget_call_link, a.meedget_next, a.meedget_prev, a.open_meedget {
+    border-bottom-style: none;
+}
+
+#widget_meedget ul > li, a.close_meedget {
+    line-height: normal;
+}
+
+#widget_meedget.roundcorner ul > li:first-child {
+    border-top-left-radius: 13px;
+}
+
+#widget_meedget ul > li, a.close_meedget {
+    line-height: normal;
+}
+
+a, a.inverted, a.white {
+    color: #e14d43;
+    cursor: pointer;
+    outline: medium none;
+    text-decoration: none;
+    transition: all 0.35s ease 0s;
+}
+
+a.meedget_calc {
+    border-bottom: 0 none;
+}
+
+#widget_meedget ul > li, #widget_meedget ul > li > a, a.close_meedget, a.meedget_back_link, a.meedget_call_link, a.meedget_next, a.meedget_prev, a.open_meedget {
+    border-bottom-style: none;
+}
+
+#widget_meedget ul > li > a {
+    background-image: url("https://meedget.ru/images/menu_icon.png");
+    background-repeat: no-repeat;
+    color: #444;
+    padding: 17px 0 17px 37px;
+    text-decoration: none;
+    width: 100%;
+}
+
+#widget_meedget.meedgetwhite a, #widget_meedget.meedgetwhite ul > li span {
+    color: #fff;
+}
+
+#widget_meedget.meedgetwhite ul > li > a {
+    background-image: url("https://meedget.ru/images/menu_icon2.png");
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 17px 0 17px 17px;
+}
+
+#widget_meedget.meedgetwhite a, #widget_meedget.meedgetwhite ul > li span {
+    color: #fff;
+}
+
+#widget_meedget span {
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+#widget_meedget ul > li span {
+    color: #444;
+}
+
+#widget_meedget.meedgetwhite a, #widget_meedget.meedgetwhite ul > li span {
+    color: #fff;
+}
