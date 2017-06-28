@@ -82,24 +82,24 @@ a.meedget_calc {
     border-bottom-style: none;
 }
 
+#widget_meedget.meedgetwhite ul > li > a {
+    background-image: url("https://meedget.ru/images/menu_icon2.png");
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 17px 0 17px 17px;
+}
+
 #widget_meedget ul > li > a {
     background-image: url("https://meedget.ru/images/menu_icon.png");
     background-repeat: no-repeat;
     color: #444;
-    padding: 17px 0 17px 37px;
+    padding: 17px 0 17px 37px !important;
     text-decoration: none;
     width: 100%;
 }
 
 #widget_meedget.meedgetwhite a, #widget_meedget.meedgetwhite ul > li span {
     color: #fff;
-}
-
-#widget_meedget.meedgetwhite ul > li > a {
-    background-image: url("https://meedget.ru/images/menu_icon2.png");
-    background-repeat: no-repeat;
-    color: #fff;
-    padding: 17px 0 17px 17px;
 }
 
 #widget_meedget.meedgetwhite a, #widget_meedget.meedgetwhite ul > li span {
@@ -120,3 +120,84 @@ a.meedget_calc {
 #widget_meedget.meedgetwhite a, #widget_meedget.meedgetwhite ul > li span {
     color: #fff;
 }
+
+#widget_meedget.roundcorner ul > li:last-child {
+    border-bottom-left-radius: 13px;
+}
+
+a.meedget_gallery {
+    background-position: 0 -162px;
+}
+
+/* close_meedget */
+#widget_meedget.roundcorner a.close_meedget {
+    border-bottom-left-radius: 10px;
+}
+#widget_meedget.meedgetwhite a.close_meedget {
+    background-position: 7px -344px;
+}
+#widget_meedget.meedgetwhite a.close_meedget, #widget_meedget.meedgetwhite a.open_meedget, #widget_meedget.meedgetwhite.meedgetleft a.close_meedget, #widget_meedget.meedgetwhite.meedgetleft a.open_meedget {
+    background-image: url(https://meedget.ru/images/menu_icon2.png) !important;
+    color: #FFF !important;
+}
+#widget_meedget ul > li, a.close_meedget {
+    line-height: normal !important;
+}
+a.close_meedget {
+    background-position: 7px -344px;
+    color: #444;
+    height: 23px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 4px 10px 0 27px !important;
+    margin: -1px 0 0 !important;
+}
+a.close_meedget, a.open_meedget {
+    float: right !important;
+    background-color: rgb(15,138,99) !important;
+    border-left: 1px solid rgb(35,158,119) !important;
+    border-bottom: 1px solid rgb(35,158,119) !important;
+    background-image: url(https://meedget.ru/images/menu_icon.png);
+    text-decoration: none !important;
+    background-repeat: no-repeat;
+}
+#widget_meedget ul > li, #widget_meedget ul > li > a, a.close_meedget, a.meedget_back_link, a.meedget_call_link, a.meedget_next, a.meedget_prev, a.open_meedget {
+    border-bottom-style: none !important;
+}
+#meedget_block, #meedget_block div, #widget_meedget, a.close_meedget {
+    box-sizing: content-box !important;
+}
+/* //close_meedget */
+
+/* open_meedget */
+#widget_meedget.roundcorner a.open_meedget {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#widget_meedget.meedgetwhite a.open_meedget {
+    background-position: 7px -317px;
+}
+#widget_meedget.meedgetwhite a.close_meedget, #widget_meedget.meedgetwhite a.open_meedget, #widget_meedget.meedgetwhite.meedgetleft a.close_meedget, #widget_meedget.meedgetwhite.meedgetleft a.open_meedget {
+    background-image: url(https://meedget.ru/images/menu_icon2.png) !important;
+    color: #FFF !important;
+}
+a.open_meedget {
+    line-height: normal !important;
+    background-position: 7px -317px;
+    border-top: 1px solid rgb(35,158,119) !important;
+    padding: 27px 0 0 27px !important;
+    margin: 0 !important;
+}
+a.close_meedget, a.open_meedget {
+    float: right !important;
+    background-color: rgb(15,138,99) !important;
+    border-left: 1px solid rgb(35,158,119) !important;
+    border-bottom: 1px solid rgb(35,158,119) !important;
+    background-image: url(https://meedget.ru/images/menu_icon.png);
+    text-decoration: none !important;
+    background-repeat: no-repeat;
+}
+#widget_meedget ul > li, #widget_meedget ul > li > a, a.close_meedget, a.meedget_back_link, a.meedget_call_link, a.meedget_next, a.meedget_prev, a.open_meedget {
+    border-bottom-style: none !important;
+}
+/* //open_meedget */
