@@ -10,4 +10,8 @@ jQuery(function ($) {
         wnd.find(".open_meedget").hide();
         wnd.find(".close_meedget").show();
     });
+
+    $(".meedget_calc", wnd).click(function () {
+        $("#meedget_popup").show();
+    });
 });

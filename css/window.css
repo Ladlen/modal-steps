@@ -133,16 +133,20 @@ a.meedget_gallery {
 #widget_meedget.roundcorner a.close_meedget {
     border-bottom-left-radius: 10px;
 }
+
 #widget_meedget.meedgetwhite a.close_meedget {
     background-position: 7px -344px;
 }
+
 #widget_meedget.meedgetwhite a.close_meedget, #widget_meedget.meedgetwhite a.open_meedget, #widget_meedget.meedgetwhite.meedgetleft a.close_meedget, #widget_meedget.meedgetwhite.meedgetleft a.open_meedget {
     background-image: url(https://meedget.ru/images/menu_icon2.png) !important;
     color: #FFF !important;
 }
+
 #widget_meedget ul > li, a.close_meedget {
     line-height: normal !important;
 }
+
 a.close_meedget {
     background-position: 7px -344px;
     color: #444;
@@ -152,21 +156,25 @@ a.close_meedget {
     padding: 4px 10px 0 27px !important;
     margin: -1px 0 0 !important;
 }
+
 a.close_meedget, a.open_meedget {
     float: right !important;
-    background-color: rgb(15,138,99) !important;
-    border-left: 1px solid rgb(35,158,119) !important;
-    border-bottom: 1px solid rgb(35,158,119) !important;
+    background-color: rgb(15, 138, 99) !important;
+    border-left: 1px solid rgb(35, 158, 119) !important;
+    border-bottom: 1px solid rgb(35, 158, 119) !important;
     background-image: url(https://meedget.ru/images/menu_icon.png);
     text-decoration: none !important;
     background-repeat: no-repeat;
 }
+
 #widget_meedget ul > li, #widget_meedget ul > li > a, a.close_meedget, a.meedget_back_link, a.meedget_call_link, a.meedget_next, a.meedget_prev, a.open_meedget {
     border-bottom-style: none !important;
 }
+
 #meedget_block, #meedget_block div, #widget_meedget, a.close_meedget {
     box-sizing: content-box !important;
 }
+
 /* //close_meedget */
 
 /* open_meedget */
@@ -174,30 +182,102 @@ a.close_meedget, a.open_meedget {
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
+
 #widget_meedget.meedgetwhite a.open_meedget {
     background-position: 7px -317px;
 }
+
 #widget_meedget.meedgetwhite a.close_meedget, #widget_meedget.meedgetwhite a.open_meedget, #widget_meedget.meedgetwhite.meedgetleft a.close_meedget, #widget_meedget.meedgetwhite.meedgetleft a.open_meedget {
     background-image: url(https://meedget.ru/images/menu_icon2.png) !important;
     color: #FFF !important;
 }
+
 a.open_meedget {
     line-height: normal !important;
     background-position: 7px -317px;
-    border-top: 1px solid rgb(35,158,119) !important;
+    border-top: 1px solid rgb(35, 158, 119) !important;
     padding: 27px 0 0 27px !important;
     margin: 0 !important;
 }
+
 a.close_meedget, a.open_meedget {
     float: right !important;
-    background-color: rgb(15,138,99) !important;
-    border-left: 1px solid rgb(35,158,119) !important;
-    border-bottom: 1px solid rgb(35,158,119) !important;
+    background-color: rgb(15, 138, 99) !important;
+    border-left: 1px solid rgb(35, 158, 119) !important;
+    border-bottom: 1px solid rgb(35, 158, 119) !important;
     background-image: url(https://meedget.ru/images/menu_icon.png);
     text-decoration: none !important;
     background-repeat: no-repeat;
 }
+
 #widget_meedget ul > li, #widget_meedget ul > li > a, a.close_meedget, a.meedget_back_link, a.meedget_call_link, a.meedget_next, a.meedget_prev, a.open_meedget {
     border-bottom-style: none !important;
 }
+
 /* //open_meedget */
+
+#meedget_popup {
+    position: absolute !important;
+    width: 100% !important;
+    min-height: 100% !important;
+    z-index: 9998 !important;
+}
+
+#meedget_block, #meedget_carousel-wrapper, #widget_meedget, .meedget_center, .meedget_copy, .meedget_images {
+    overflow: hidden !important;
+}
+
+#meedget_block, #meedget_carousel-wrapper, #widget_meedget, .meedget_center, .meedget_copy, .meedget_images {
+    overflow: hidden !important;
+}
+
+#meedget_block {
+    position: relative !important;
+    width: 472px !important;
+    background: #fff !important;
+    border: 3px solid rgb(15, 138, 99) !important;
+    padding: 23px 85px 0 !important;
+    margin: 3% auto !important;
+}
+
+#meedget_block {
+    font-family: Arial;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+}
+
+#meedget_block.roundcorner {
+    border-radius: 13px;
+}
+
+a.meedget_close_link {
+    margin-right: 20px !important;
+    z-index: 999 !important;
+}
+
+a.meedget_close_link {
+    position: absolute !important;
+    right: 0 !important;
+    background: url(https://meedget.ru/images/close_icon.png) no-repeat !important;
+    padding: 25px 25px 0 0 !important;
+    margin: 0 29px 0 0 !important;
+}
+
+#meedget_block h2 {
+    color: #444 !important;
+    font-size: 32px !important;
+    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
+    font-weight: 100 !important;
+    line-height: normal !important;
+    margin: 33px 0 0 !important;
+    padding: 0 !important;
+}
+
+#meedget_block, #meedget_block div, #widget_meedget, a.close_meedget {
+    box-sizing: content-box !important;
+}
+
+#meedget_block div {
+    float: left !important;
+    width: 100%;
+}
+
