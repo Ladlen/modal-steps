@@ -24,6 +24,7 @@ jQuery(function ($) {
         return false;
     });
 
+    // Step 1
     $("div[data-step=1] .meedget_calc_next").click(function () {
         if ($("[name=ans0]:checked").length > 0) {
             $("div[data-step=1]").hide();
@@ -32,4 +33,60 @@ jQuery(function ($) {
             alert("не выбран ни один пункт!");
         }
     });
+
+    // Step 2
+    $("div[data-step=2] .meedget_calc_next").click(function () {
+        if ($("[name=ans1]:checked").length > 0) {
+            $("div[data-step=2]").hide();
+            $("div[data-step=3]").show();
+        } else {
+            alert("не выбран ни один пункт!");
+        }
+    });
+    $("div[data-step=2] .meedget_back_link").click(function () {
+        $("div[data-step=2]").hide();
+        $("div[data-step=1]").show();
+    });
+
+    // Step 3
+    $("div[data-step=3] .meedget_calc_next").click(function () {
+        $("div[data-step=3]").hide();
+        $("div[data-step=4]").show();
+    });
+    $("div[data-step=3] .meedget_back_link").click(function () {
+        $("div[data-step=3]").hide();
+        $("div[data-step=2]").show();
+    });
+
+    // Step 4
+    $("div[data-step=4] .meedget_calc_next").click(function () {
+        $("div[data-step=4]").hide();
+        $("div[data-step=calc]").show();
+    });
+    $("div[data-step=4] .meedget_back_link").click(function () {
+        $("div[data-step=4]").hide();
+        $("div[data-step=3]").show();
+    });
+
+    // Step calc
+    $("div[data-step=calc] .meedget_calc_next").click(function () {
+        $("div[data-step=calc]").hide();
+        $("div[data-step=phone]").show();
+    });
+    $("div[data-step=calc] .meedget_back_link").click(function () {
+        $("div[data-step=calc]").hide();
+        $("div[data-step=4]").show();
+    });
+
+    // Step phone
+    $("div[data-step=phone] .meedget_calc_next").click(function () {
+        $("div[data-step=phone]").hide();
+        $("div[data-step=finish]").show();
+    });
+    $("div[data-step=phone] .meedget_back_link").click(function () {
+        $("div[data-step=phone]").hide();
+        $("div[data-step=calc]").show();
+    });
+
+    // Step phone
 });
