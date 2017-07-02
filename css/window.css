@@ -436,10 +436,10 @@ a.meedget_close_link {
     cursor: pointer !important;
 }
 
-#meedget_block input[type="radio"] + label {
+/*#meedget_block input[type="radio"] + label {
     background: url(https://meedget.ru/images/radio_icon.png) no-repeat !important;
     color: #666 !important;
-}
+}*/
 
 #meedget_block input[type="radio"]:checked + label {
     color: rgb(15,138,99) !important;
@@ -477,8 +477,9 @@ a.meedget_close_link {
 }
 
 #meedget_block div {
-    float: left !important;
+    float: none !important;
     width: 100%;
+    display: inline-block;
 }
 
 .meedget_block img {
@@ -537,7 +538,7 @@ a.meedget_close_link {
 }
 
 #meedget_block input[type="radio"] + label {
-    background: url(https://meedget.ru/images/radio_icon.png) no-repeat !important;
+    background: url(https://meedget.ru/images/radio_icon.png) no-repeat top center !important;
     color: #666 !important;
 }
 
@@ -718,5 +719,11 @@ button.meedget_step_button {
     margin: 25px 0 0 !important;
 }
 
+.meedget_block {
+    margin-right: 0 !important;
+    width: 141px !important;
+}
 
-
+.meedget_center {
+    text-align: center !important;
+}
