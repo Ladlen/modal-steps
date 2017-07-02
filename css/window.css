@@ -732,3 +732,20 @@ button.meedget_step_button {
     position: relative !important;
     bottom: -7px !important;
 }
+
+#meedget_block input[type="radio"]:checked + label {
+    color: rgb(15,138,99) !important;
+    font-family: 'Open Sans Light','Open Sans',Arial !important;
+    background: url(https://meedget.ru/images/radio_active_icon.png) no-repeat top center !important;
+}
+
+#meedget_block input[type="checkbox"] + label {
+    background: url(https://meedget.ru/images/checkbox_icon.png) no-repeat !important;
+    color: #666 !important;
+}
+
+#meedget_block input[type="checkbox"]:checked + label {
+    color: rgb(15,138,99) !important;
+    font-family: 'Open Sans Light','Open Sans',Arial !important;
+    background: url(https://meedget.ru/images/checkbox_active_icon.png) no-repeat !important;
+}

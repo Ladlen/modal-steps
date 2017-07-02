@@ -19,15 +19,15 @@ jQuery(function ($) {
         $("#meedget_popup").hide();
         $("#calc_form")[0].reset();
     });
-    wndForm.submit(function(e){
+    wndForm.submit(function (e) {
         e.preventDefault();
         return false;
     });
 
-    $("[data-step=1] .meedget_calc_next").click(function(){
-        if ($("[name=ans0]:checked").length() > 0) {
-            $("[data-step=1]").hide();
-            $("[data-step=2]").show();
+    $("div[data-step=1] .meedget_calc_next").click(function () {
+        if ($("[name=ans0]:checked").length > 0) {
+            $("div[data-step=1]").hide();
+            $("div[data-step=2]").show();
         } else {
             alert("не выбран ни один пункт!");
         }
