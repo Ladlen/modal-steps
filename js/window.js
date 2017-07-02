@@ -10,8 +10,18 @@ jQuery(function ($) {
         wnd.find(".open_meedget").hide();
         wnd.find(".close_meedget").show();
     });
-
     $(".meedget_calc", wnd).click(function () {
         $("#meedget_popup").show();
+    });
+
+    var wndForm = $("#calc_form");
+    $(".meedget_close_link", wndForm).click(function () {
+        $("#meedget_popup").hide();
+        $("#calc_form")[0].reset();
+    });
+    wndForm.submit(function(e){
+        e.preventDefault();
+
+        return false;
     });
 });

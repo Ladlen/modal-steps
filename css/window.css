@@ -424,6 +424,7 @@ a.meedget_close_link {
 #meedget_block label {
     line-height: 24px;
     margin-left: 10px;
+    height: 72px;
 }
 
 #meedget_block input[type="checkbox"] + label, #meedget_block input[type="radio"] + label {
