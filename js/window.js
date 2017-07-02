@@ -21,7 +21,15 @@ jQuery(function ($) {
     });
     wndForm.submit(function(e){
         e.preventDefault();
-
         return false;
+    });
+
+    $("[data-step=1] .meedget_calc_next").click(function(){
+        if ($("[name=ans0]:checked").length() > 0) {
+            $("[data-step=1]").hide();
+            $("[data-step=2]").show();
+        } else {
+            alert("не выбран ни один пункт!");
+        }
     });
 });

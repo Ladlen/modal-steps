@@ -727,3 +727,8 @@ button.meedget_step_button {
 .meedget_center {
     text-align: center !important;
 }
+
+.meedget_copy {
+    position: relative !important;
+    bottom: -7px !important;
+}
