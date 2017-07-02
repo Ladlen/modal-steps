@@ -554,3 +554,168 @@ a.meedget_close_link {
 #meedget_block label {
     margin: 0 !important;
 }
+
+.meedget_copy {
+    background: #dedede none repeat scroll 0 0;
+    height: 32px;
+    margin: 50px 0 0 -85px;
+    width: 682px;
+}
+
+.meedget_copy {
+    width: 682px !important;
+    height: 32px !important;
+    background: #dedede !important;
+    margin: 50px 0 0 -85px !important;
+}
+
+.meedget_copy {
+    font-size: 12px !important;
+    padding: 6px 0 0 !important;
+}
+
+.meedget_copy {
+    float: left !important;
+    border-top: 1px solid #e8e9eb !important;
+}
+
+#meedget_block, #meedget_carousel-wrapper, #widget_meedget, .meedget_center, .meedget_copy, .meedget_images {
+    overflow: hidden !important;
+}
+
+.meedget_block p, .meedget_copy p {
+    text-align: center !important;
+}
+
+#meedget_block a, #meedget_block label, #meedget_block ol, #meedget_block sup, #meedget_block ul, .meedget_copy a, .meedget_copy p, .meedget_label_radio label {
+    font-weight: 400 !important;
+}
+
+#meedget_block input, .meedget_copy p, .meedget_step {
+    font-family: 'Open Sans Light','Open Sans',Arial !important;
+}
+
+.meedget_copy p {
+    font-size: 13px !important;
+    color: #B2B2B2 !important;
+    margin-right: 40px !important;
+    font-weight: 100 !important;
+    margin-top: 6px !important;
+}
+
+#meedget_block p, p.meedget_h2, p.meedget_h3 {
+    padding: 0 !important;
+}
+
+a {
+    color: #0069d6;
+    text-decoration: none;
+}
+
+a, a.inverted, a.white {
+    cursor: pointer;
+    color: #E14D43;
+    text-decoration: none;
+    -webkit-transition: all .35s ease;
+    -moz-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease;
+    outline: none;
+}
+
+#meedget_block label, a.meedget_back_link, a.meedget_prev {
+    float: left !important;
+}
+
+a.meedget_back_link {
+    font-size: 14px !important;
+    background: url(https://meedget.ru/images/back_link_icon.png) left no-repeat !important;
+    text-decoration: none !important;
+    padding-left: 17px !important;
+    margin-top: 12px !important;
+}
+
+a.meedget_back_link {
+    margin: 12px 0;
+}
+
+a.meedget_back, button.meedget_step_button {
+    font-size: 18px !important;
+    font-weight: 100 !important;
+}
+
+a.meedget_back {
+    float: left !important;
+    color: #444 !important;
+    font-family: 'Open Sans Light','Open Sans',Arial !important;
+    background: url(https://meedget.ru/images/back_icon.png) left no-repeat !important;
+    padding: 0 0 0 17px !important;
+    text-decoration: none !important;
+    margin: 35px 17px 0 0 !important;
+}
+
+#meedget_block a {
+    color: #444 !important;
+    text-decoration: none !important;
+}
+
+#meedget_block a, #meedget_block label, #meedget_block ol, #meedget_block sup, #meedget_block ul, .meedget_copy a, .meedget_copy p, .meedget_label_radio label {
+    font-weight: 400 !important;
+}
+
+#meedget_block a {
+    color: #444 !important;
+    text-decoration: none !important;
+}
+
+#meedget_block a, #meedget_block label, #meedget_block ol, #meedget_block sup, #meedget_block ul, .meedget_copy a, .meedget_copy p, .meedget_label_radio label {
+    font-weight: 400 !important;
+}
+
+a.meedget_back, button.meedget_step_button {
+    font-size: 18px !important;
+    font-weight: 100 !important;
+}
+
+button.meedget_calc_next {
+    background-image: none !important;
+}
+
+button.meedget_step_button {
+    float: left !important;
+    height: 44px !important;
+    background: rgb(15,138,99) !important;
+    color: #fff !important;
+    font-family: 'Open Sans Light','Open Sans',Arial !important;
+    border: none !important;
+    cursor: pointer !important;
+    padding: 0 17px !important;
+    margin: 50px 0 0 !important;
+}
+
+#meedget_block button, #meedget_block ul {
+    font-family: 'Open Sans Light','Open Sans',Arial !important;
+}
+
+#meedget_block button, #meedget_phone_input {
+    float: left !important;
+    font-weight: 100 !important;
+}
+
+#meedget_block button {
+    height: 44px;
+    position: inherit !important;
+    background-image: url(https://meedget.ru/images/button_icon.png);
+    background-position: left !important;
+    background-repeat: no-repeat !important;
+    background-color: rgb(15,138,99) !important;
+    color: #fff !important;
+    font-size: 18px !important;
+    border: none !important;
+    cursor: pointer !important;
+    padding: 0 17px 0 46px !important;
+    margin: 25px 0 0 !important;
+}
+
+
+
