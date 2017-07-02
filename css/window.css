@@ -221,6 +221,7 @@ a.close_meedget, a.open_meedget {
     width: 100% !important;
     min-height: 100% !important;
     z-index: 9998 !important;
+    top: 0;
 }
 
 #meedget_block, #meedget_carousel-wrapper, #widget_meedget, .meedget_center, .meedget_copy, .meedget_images {
@@ -281,3 +282,269 @@ a.meedget_close_link {
     width: 100%;
 }
 
+#meedget_block input, .meedget_copy p, .meedget_step {
+    font-family: 'Open Sans Light','Open Sans',Arial !important;
+}
+
+.meedget_step {
+    height: 31px !important;
+    color: #fff !important;
+    font-size: 18px !important;
+    font-weight: 100 !important;
+    background: url(https://meedget.ru/images/meedget_step.png) right no-repeat rgb(15,138,99) !important;
+    padding: 6px 19px 0 85px !important;
+    margin: 19px 0 0 -85px !important;
+    width: 25% !important;
+    position: relative;
+}
+
+.step_arrow {
+    position: absolute !important;
+    right: 0;
+    top: 0;
+    width: 0 !important;
+    background: #fff;
+    height: 0;
+    border: 19px solid transparent;
+    border-left-color: rgb(15,138,99);
+    border-right: 0;
+}
+
+.meedget_inner {
+    width: 100%;
+    clear: both;
+    float: left !important;
+}
+
+#meedget_block h3, #meedget_block ul {
+    color: #666 !important;
+    line-height: 22px !important;
+}
+
+#meedget_block h3 {
+    font-size: 18px !important;
+    font-family: 'Open Sans Semibold','Open Sans' !important;
+    font-weight: 600 !important;
+    margin: 19px 0 9px !important;
+}
+
+#meedget_block p, p.meedget_h2, p.meedget_h3 {
+    padding: 0 !important;
+}
+
+#meedget_block, #meedget_carousel-wrapper, #widget_meedget, .meedget_center, .meedget_copy, .meedget_images {
+    overflow: hidden !important;
+}
+
+.meedget_center {
+    display: table !important;
+    margin: 0 auto !important;
+}
+
+#meedget_block, #meedget_block div, #widget_meedget, a.close_meedget {
+    box-sizing: content-box !important;
+}
+
+#meedget_block div {
+    float: left !important;
+    width: 100%;
+}
+
+.meedget_block img {
+    float: left !important;
+    max-width: 110px !important;
+    max-height: 110px !important;
+    margin: 0 15px !important;
+    border: 1px dotted rgb(15,138,99) !important;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#meedget_block img {
+    border: none !important;
+}
+
+.meedget_block input {
+    margin: 10px 17px 0 0 !important;
+}
+
+#meedget_block input, .meedget_copy p, .meedget_step {
+    font-family: 'Open Sans Light','Open Sans',Arial !important;
+}
+
+#meedget_block input {
+    float: left !important;
+    height: 40px !important;
+    color: #b4b4b4 !important;
+    font-size: 16px !important;
+    font-weight: 100 !important;
+    border: 2px solid #b4b4b4 !important;
+    border-radius: 3px !important;
+    padding: 0 7px !important;
+    margin: 25px 17px 0 0;
+}
+
+#meedget_block input[type="checkbox"], #meedget_block input[type="radio"] {
+    display: none !important;
+}
+
+#meedget_block input[type="checkbox"], #meedget_block input[type="radio"] {
+    margin-left: 59px !important;
+}
+
+.meedget_label_radio label {
+    font-size: 16px !important;
+    color: #444 !important;
+    cursor: pointer !important;
+    padding: 1px 0 2px 22px !important;
+    margin-top: -2px !important;
+    margin-bottom: 12px !important;
+    margin-right: 25px !important;
+}
+
+#meedget_block label, a.meedget_back_link, a.meedget_prev {
+    float: left !important;
+}
+
+#meedget_block label {
+    font-size: 15px !important;
+    color: #444 !important;
+}
+
+#meedget_block label, .meedget_label_radio label {
+    clear: none !important;
+}
+
+#meedget_block a, #meedget_block label, #meedget_block ol, #meedget_block sup, #meedget_block ul, .meedget_copy a, .meedget_copy p, .meedget_label_radio label {
+    font-weight: 400 !important;
+}
+
+#meedget_block label {
+    line-height: 24px;
+    margin-left: 10px;
+}
+
+#meedget_block input[type="checkbox"] + label, #meedget_block input[type="radio"] + label {
+    text-align: center !important;
+    padding: 50px 0 0 !important;
+    width: 100%;
+    float: left !important;
+    font-family: 'Open Sans Light','Open Sans',Arial !important;
+    cursor: pointer !important;
+}
+
+#meedget_block input[type="radio"] + label {
+    background: url(https://meedget.ru/images/radio_icon.png) no-repeat !important;
+    color: #666 !important;
+}
+
+#meedget_block input[type="radio"]:checked + label {
+    color: rgb(15,138,99) !important;
+    font-family: 'Open Sans Light','Open Sans',Arial !important;
+    background: url(https://meedget.ru/images/radio_active_icon.png) no-repeat !important;
+}
+
+#meedget_block h3, #meedget_block ul {
+    color: #666 !important;
+    line-height: 22px !important;
+}
+
+#meedget_block h3 {
+    font-size: 18px !important;
+    font-family: 'Open Sans Semibold','Open Sans' !important;
+    font-weight: 600 !important;
+    margin: 19px 0 9px !important;
+}
+
+#meedget_block p, p.meedget_h2, p.meedget_h3 {
+    padding: 0 !important;
+}
+
+#meedget_block, #meedget_carousel-wrapper, #widget_meedget, .meedget_center, .meedget_copy, .meedget_images {
+    overflow: hidden !important;
+}
+
+.meedget_center {
+    display: table !important;
+    margin: 0 auto !important;
+}
+
+#meedget_block, #meedget_block div, #widget_meedget, a.close_meedget {
+    box-sizing: content-box !important;
+}
+
+#meedget_block div {
+    float: left !important;
+    width: 100%;
+}
+
+.meedget_block img {
+    float: left !important;
+    max-width: 110px !important;
+    max-height: 110px !important;
+    margin: 0 15px !important;
+    border: 1px dotted rgb(15,138,99) !important;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#meedget_block img {
+    border: none !important;
+}
+
+.meedget_label_radio label {
+    font-size: 16px !important;
+    color: #444 !important;
+    cursor: pointer !important;
+    padding: 1px 0 2px 22px !important;
+    margin-top: -2px !important;
+    margin-bottom: 12px !important;
+    margin-right: 25px !important;
+}
+
+#meedget_block label, a.meedget_back_link, a.meedget_prev {
+    float: left !important;
+}
+
+#meedget_block label {
+    font-size: 15px !important;
+    color: #444 !important;
+}
+
+#meedget_block label, .meedget_label_radio label {
+    clear: none !important;
+}
+
+#meedget_block a, #meedget_block label, #meedget_block ol, #meedget_block sup, #meedget_block ul, .meedget_copy a, .meedget_copy p, .meedget_label_radio label {
+    font-weight: 400 !important;
+}
+
+#meedget_block label {
+    line-height: 24px;
+    margin-left: 10px;
+}
+
+#meedget_block input[type="checkbox"] + label, #meedget_block input[type="radio"] + label {
+    text-align: center !important;
+    padding: 50px 0 0 !important;
+    width: 100%;
+    float: left !important;
+    font-family: 'Open Sans Light','Open Sans',Arial !important;
+    cursor: pointer !important;
+}
+
+#meedget_block input[type="radio"] + label {
+    background: url(https://meedget.ru/images/radio_icon.png) no-repeat !important;
+    color: #666 !important;
+}
+
+.meedget_block {
+    width: 148px !important;
+    margin: 15px 14px 0 0 !important;
+}
+
+#meedget_block .meedget_block img {
+    box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    -webkit-box-sizing: border-box !important;
+}
