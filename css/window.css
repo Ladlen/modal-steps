@@ -234,10 +234,12 @@ a.close_meedget, a.open_meedget {
 
 #meedget_block {
     position: relative !important;
-    width: 472px !important;
+    /*width: 472px !important;*/
+    max-width: 490px !important;
+    width: 50% !important;
     background: #fff !important;
     border: 3px solid rgb(15, 138, 99) !important;
-    padding: 23px 85px 0 !important;
+    padding: 23px 76px 0 !important;
     margin: 3% auto !important;
 }
 
@@ -547,4 +549,8 @@ a.meedget_close_link {
     box-sizing: border-box !important;
     -moz-box-sizing: border-box !important;
     -webkit-box-sizing: border-box !important;
+}
+
+#meedget_block label {
+    margin: 0 !important;
 }
