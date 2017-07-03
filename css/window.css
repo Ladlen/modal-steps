@@ -101,14 +101,14 @@ a.meedget_calc {
 }*/
 
 #widget_right_panel.meedgetwhite ul > li > a {
-    background-image: url("https://meedget.ru/images/menu_icon2.png");
+    background-image: url("../img/menu_icon2.png");
     background-repeat: no-repeat;
     color: #fff;
     padding: 17px 0 17px 17px;
 }
 
 #widget_right_panel ul > li > a {
-    background-image: url("https://meedget.ru/images/menu_icon.png");
+    background-image: url("../img/menu_icon.png");
     background-repeat: no-repeat;
     color: #444;
     padding: 17px 0 17px 37px !important;
@@ -157,7 +157,7 @@ a.meedget_gallery {
 }
 
 #widget_right_panel.meedgetwhite a.close_meedget, #widget_right_panel.meedgetwhite a.open_right_panel, #widget_right_panel.meedgetwhite.meedgetleft a.close_meedget, #widget_right_panel.meedgetwhite.meedgetleft a.open_right_panel {
-    background-image: url(https://meedget.ru/images/menu_icon2.png) !important;
+    background-image: url(../img/menu_icon2.png) !important;
     color: #FFF !important;
 }
 
@@ -180,7 +180,7 @@ a.close_meedget, a.open_right_panel {
     background-color: rgb(15, 138, 99);
     border-left: 1px solid rgb(35, 158, 119);
     border-bottom: 1px solid rgb(35, 158, 119);
-    background-image: url(https://meedget.ru/images/menu_icon.png);
+    background-image: url(../img/menu_icon.png);
     text-decoration: none !important;
     background-repeat: no-repeat;
 }
@@ -206,7 +206,7 @@ a.close_meedget, a.open_right_panel {
 }
 
 #widget_right_panel.meedgetwhite a.close_meedget, #widget_right_panel.meedgetwhite a.open_right_panel, #widget_right_panel.meedgetwhite.meedgetleft a.close_meedget, #widget_right_panel.meedgetwhite.meedgetleft a.open_right_panel {
-    background-image: url(https://meedget.ru/images/menu_icon2.png) !important;
+    background-image: url(../img/menu_icon2.png) !important;
     color: #FFF !important;
 }
 
@@ -274,7 +274,7 @@ a.meedget_close_link {
 a.meedget_close_link {
     position: absolute !important;
     right: 0 !important;
-    background: url(https://meedget.ru/images/close_icon.png) no-repeat !important;
+    background: url(../img/close_icon.png) no-repeat !important;
     padding: 25px 25px 0 0 !important;
     margin: 0 29px 0 0 !important;
 }
@@ -307,7 +307,7 @@ a.meedget_close_link {
     color: #fff !important;
     font-size: 18px !important;
     font-weight: 100 !important;
-    background: url(https://meedget.ru/images/meedget_step.png) right no-repeat rgb(15, 138, 99) !important;
+    background: url(../img/meedget_step.png) right no-repeat rgb(15, 138, 99) !important;
     padding: 6px 19px 0 85px !important;
     margin: 19px 0 0 -85px !important;
     width: 25% !important;
@@ -454,7 +454,7 @@ a.meedget_close_link {
 #meedget_block input[type="radio"]:checked + label {
     color: rgb(15, 138, 99) !important;
     font-family: 'Open Sans Light', 'Open Sans', Arial !important;
-    background: url(https://meedget.ru/images/radio_active_icon.png) no-repeat !important;
+    background: url(../img/radio_active_icon.png) no-repeat !important;
 }
 
 #meedget_block h3, #meedget_block ul {
@@ -548,7 +548,7 @@ a.meedget_close_link {
 }
 
 #meedget_block input[type="radio"] + label {
-    background: url(https://meedget.ru/images/radio_icon.png) no-repeat top center !important;
+    background: url(../img/radio_icon.png) no-repeat top center !important;
     color: #666 !important;
 }
 
@@ -637,7 +637,7 @@ a, a.inverted, a.white {
 
 a.meedget_back_link {
     font-size: 14px !important;
-    background: url(https://meedget.ru/images/back_link_icon.png) left no-repeat !important;
+    background: url(../img/back_link_icon.png) left no-repeat !important;
     text-decoration: none !important;
     padding-left: 17px !important;
     margin-top: 12px !important;
@@ -656,7 +656,7 @@ a.meedget_back {
     float: left !important;
     color: #444 !important;
     font-family: 'Open Sans Light', 'Open Sans', Arial !important;
-    background: url(https://meedget.ru/images/back_icon.png) left no-repeat !important;
+    background: url(../img/back_icon.png) left no-repeat !important;
     padding: 0 0 0 17px !important;
     text-decoration: none !important;
     margin: 35px 17px 0 0 !important;
@@ -713,7 +713,7 @@ button.meedget_step_button {
 #meedget_block button {
     height: 44px;
     position: inherit !important;
-    background-image: url(https://meedget.ru/images/button_icon.png);
+    background-image: url(../img/button_icon.png);
     background-position: left !important;
     background-repeat: no-repeat !important;
     background-color: rgb(15, 138, 99) !important;
@@ -742,18 +742,18 @@ button.meedget_step_button {
 #meedget_block input[type="radio"]:checked + label {
     color: rgb(15, 138, 99) !important;
     font-family: 'Open Sans Light', 'Open Sans', Arial !important;
-    background: url(https://meedget.ru/images/radio_active_icon.png) no-repeat top center !important;
+    background: url(../img/radio_active_icon.png) no-repeat top center !important;
 }
 
 #meedget_block input[type="checkbox"] + label {
-    background: url(https://meedget.ru/images/checkbox_icon.png) no-repeat !important;
+    background: url(../img/checkbox_icon.png) no-repeat !important;
     color: #666 !important;
 }
 
 #meedget_block input[type="checkbox"]:checked + label {
     color: rgb(15, 138, 99) !important;
     font-family: 'Open Sans Light', 'Open Sans', Arial !important;
-    background: url(https://meedget.ru/images/checkbox_active_icon.png) no-repeat !important;
+    background: url(../img/checkbox_active_icon.png) no-repeat !important;
 }
 
 .meed_modal {
