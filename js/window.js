@@ -142,8 +142,8 @@ jQuery(function ($) {
         } else {
             phone = phone.replace(/\s/g, '');
 
-            //var phoneMask = /^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s\./0-9]*$/g;
-            var phoneMask = /[0-9-()+]{3,20}/g;
+            var phoneMask = /^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s\./0-9]*$/g;
+            //var phoneMask = /^[0-9-()+]{3,20}$/;
             if (!phone.match(phoneMask)) {
                 alert("Номер телефона не корректен");
             } else {
