@@ -17,12 +17,12 @@ jQuery(function ($) {
         $("div[data-step]").hide();
         $("div[data-step=1]").show();
         $("#calc_form")[0].reset();
-        $("#meedget_popup").show();
+        $("#meedget_popup").fadeIn();
     });
 
     var wndForm = $("#calc_form");
     $(".meedget_close_link", wndForm).click(function () {
-        $("#meedget_popup").hide();
+        $("#meedget_popup").fadeOut();
         $("#calc_form")[0].reset();
     });
     wndForm.submit(function (e) {
@@ -39,68 +39,97 @@ jQuery(function ($) {
     // Step 1
     $("div[data-step=1] .meedget_calc_next").click(function () {
         if ($("[name=ans0]:checked").length > 0) {
-            $("div[data-step=1]").hide();
-            $("div[data-step=2]").show();
+            //$("div[data-step=1]").hide();
+            //$("div[data-step=2]").show();
+            $("div[data-step=1]").fadeOut(300, function () {
+                $("div[data-step=2]").fadeIn();
+            });
             $(window).scrollTop(0);
         } else {
-            alert("не выбран ни один пункт!");
+            alert("Пожалуйста выберите тип забора.");
         }
     });
 
     // Step 2
     $("div[data-step=2] .meedget_calc_next").click(function () {
         if ($('[name="ans1[]"]:checked').length > 0) {
-            $("div[data-step=2]").hide();
-            $("div[data-step=3]").show();
+            //$("div[data-step=2]").hide();
+            //$("div[data-step=3]").show();
+            $("div[data-step=2]").fadeOut(300, function () {
+                $("div[data-step=3]").fadeIn();
+            });
             $(window).scrollTop(0);
         } else {
-            alert("не выбран ни один пункт!");
+            alert("Не выбран ни один пункт!");
         }
     });
     $("div[data-step=2] .meedget_back_link").click(function () {
-        $("div[data-step=2]").hide();
-        $("div[data-step=1]").show();
+        //$("div[data-step=2]").hide();
+        //$("div[data-step=1]").show();
+        $("div[data-step=2]").fadeOut(300, function () {
+            $("div[data-step=1]").fadeIn();
+        });
         $(window).scrollTop(0);
     });
 
     // Step 3
     $("div[data-step=3] .meedget_calc_next").click(function () {
-        $("div[data-step=3]").hide();
-        $("div[data-step=4]").show();
+        //$("div[data-step=3]").hide();
+        //$("div[data-step=4]").show();
+        $("div[data-step=3]").fadeOut(300, function () {
+            $("div[data-step=4]").fadeIn();
+        });
         $(window).scrollTop(0);
     });
     $("div[data-step=3] .meedget_back_link").click(function () {
-        $("div[data-step=3]").hide();
-        $("div[data-step=2]").show();
+        //$("div[data-step=3]").hide();
+        //$("div[data-step=2]").show();
+        $("div[data-step=3]").fadeOut(300, function () {
+            $("div[data-step=2]").fadeIn();
+        });
         $(window).scrollTop(0);
     });
 
     // Step 4
     $("div[data-step=4] .meedget_calc_next").click(function () {
-        $("div[data-step=4]").hide();
-        $("div[data-step=calc]").show();
+        //$("div[data-step=4]").hide();
+        //$("div[data-step=calc]").show();
+        $("div[data-step=4]").fadeOut(300, function () {
+            $("div[data-step=calc]").fadeIn();
+        });
         $(window).scrollTop(0);
         setTimeout(function () {
-            $("div[data-step=calc]").hide();
-            $("div[data-step=phone]").show();
+            //$("div[data-step=calc]").hide();
+            //$("div[data-step=phone]").show();
+            $("div[data-step=calc]").fadeOut(300, function () {
+                $("div[data-step=phone]").fadeIn();
+            });
         }, 2000);
     });
     $("div[data-step=4] .meedget_back_link").click(function () {
-        $("div[data-step=4]").hide();
-        $("div[data-step=3]").show();
+        //$("div[data-step=4]").hide();
+        //$("div[data-step=3]").show();
+        $("div[data-step=4]").fadeOut(300, function () {
+            $("div[data-step=3]").fadeIn();
+        });
         $(window).scrollTop(0);
     });
 
     // Step calc
     $("div[data-step=calc] .meedget_calc_next").click(function () {
-        $("div[data-step=calc]").hide();
-//        $("#calc_form .meedget_copy").hide();
-        $("div[data-step=phone]").show();
+        //$("div[data-step=calc]").hide();
+        //$("div[data-step=phone]").show();
+        $("div[data-step=calc]").fadeOut(300, function () {
+            $("div[data-step=phone]").fadeIn();
+        });
         $(window).scrollTop(0);
     });
     $("div[data-step=calc] .meedget_back_link").click(function () {
-        $("div[data-step=calc]").hide();
-        $("div[data-step=4]").show();
+        //$("div[data-step=calc]").hide();
+        //$("div[data-step=4]").show();
+        $("div[data-step=calc]").fadeOut(300, function () {
+            $("div[data-step=4]").fadeIn();
+        });
         $(window).scrollTop(0);
     });
 
@@ -113,15 +142,17 @@ jQuery(function ($) {
         } else {
             phone = phone.replace(/\s/g, '');
 
-            var phoneMask = /^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s\./0-9]*$/g;
-            //var phoneMask = /[0-9-()+]{3,20}/;
-            //var phoneMask = /[0-9-()+]{3,20}/g;
+            //var phoneMask = /^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s\./0-9]*$/g;
+            var phoneMask = /[0-9-()+]{3,20}/g;
             if (!phone.match(phoneMask)) {
                 alert("Номер телефона не корректен");
             } else {
                 $.post('file.php', $('#calc_form').serialize());
-                $("div[data-step=phone]").hide();
-                $("div[data-step=finish]").show();
+                //$("div[data-step=phone]").hide();
+                //$("div[data-step=finish]").show();
+                $("div[data-step=phone]").fadeOut(300, function () {
+                    $("div[data-step=finish]").show();
+                });
                 $(window).scrollTop(0);
             }
         }
