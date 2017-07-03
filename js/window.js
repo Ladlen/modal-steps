@@ -85,6 +85,7 @@ jQuery(function ($) {
     // Step calc
     $("div[data-step=calc] .meedget_calc_next").click(function () {
         $("div[data-step=calc]").hide();
+//        $("#calc_form .meedget_copy").hide();
         $("div[data-step=phone]").show();
         $(window).scrollTop(0);
     });
