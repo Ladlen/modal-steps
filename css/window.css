@@ -799,5 +799,14 @@ button.meedget_step_button {
     position: absolute;
     left: 28px;
     top: -28px;
-    border-bottom-left-radius: 0 !;
+    border-bottom-left-radius: 0;
+}
+
+#meedget_block.roundcorner {
+    overflow: hidden;
+}
+
+.meedget_copy p {
+    position: absolute;
+    width: 100%;
 }
