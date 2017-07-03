@@ -5,6 +5,20 @@ body {
     text-rendering: optimizelegibility;
 }
 
+@font-face {
+    font-family: "Open Sans Semibold";
+    src: url(../fonts/OpenSansSemibold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Open Sans Light";
+    src: url(../fonts/OpenSansLight.ttf) format("truetype");
+}
+
+
 #widget_meedget {
     color: #999999;
     /*font-family: "Raleway",sans-serif;*/
@@ -14,7 +28,7 @@ body {
 }
 
 #widget_meedget {
-    font-family: arial;
+    font-family: Arial;
     font-size: 14px;
     position: fixed;
     right: 0;
@@ -462,7 +476,7 @@ a.meedget_close_link {
 #meedget_block h3 {
     font-size: 18px !important;
     font-family: 'Open Sans Semibold', 'Open Sans' !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     margin: 19px 0 9px !important;
 }
 
