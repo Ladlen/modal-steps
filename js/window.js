@@ -3,7 +3,7 @@ jQuery(function ($) {
     $(".close_meedget", wnd).click(function () {
         //wnd.find("ul").hide();
         //wnd.find(".close_meedget").hide();
-        wnd.animate({right: "-180px"}, function () {
+        wnd.animate({right: "-185px"}, function () {
             wnd.find(".open_right_panel").fadeIn();
         });
     });
@@ -30,6 +30,12 @@ jQuery(function ($) {
         return false;
     });
 
+    $("#ans2-01, #ans3-01, #meedget_phone_input").keypress(function (event) {
+        if (event.keyCode === 10 || event.keyCode === 13) {
+            event.preventDefault();
+        }
+    });
+
     // Step 1
     $("div[data-step=1] .meedget_calc_next").click(function () {
         if ($("[name=ans0]:checked").length > 0) {
@@ -43,7 +49,7 @@ jQuery(function ($) {
 
     // Step 2
     $("div[data-step=2] .meedget_calc_next").click(function () {
-        if ($("[name=ans1]:checked").length > 0) {
+        if ($('[name="ans1[]"]:checked').length > 0) {
             $("div[data-step=2]").hide();
             $("div[data-step=3]").show();
             $(window).scrollTop(0);
@@ -122,5 +128,6 @@ jQuery(function ($) {
     });
 
     // Step finish
+
 
 });
