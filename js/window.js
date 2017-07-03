@@ -11,6 +11,9 @@ jQuery(function ($) {
         wnd.find(".close_meedget").show();
     });
     $(".meedget_calc", wnd).click(function () {
+        $("div[data-step]").hide();
+        $("div[data-step=1]").show();
+        $("#calc_form")[0].reset();
         $("#meedget_popup").show();
     });
 
@@ -68,6 +71,10 @@ jQuery(function ($) {
         $("div[data-step=4]").hide();
         $("div[data-step=calc]").show();
         $(window).scrollTop(0);
+        setTimeout(function () {
+            $("div[data-step=calc]").hide();
+            $("div[data-step=phone]").show();
+        }, 3000);
     });
     $("div[data-step=4] .meedget_back_link").click(function () {
         $("div[data-step=4]").hide();
@@ -88,16 +95,12 @@ jQuery(function ($) {
     });
 
     // Step phone
-    $("div[data-step=phone] .meedget_calc_next").click(function () {
+    $("div[data-step=phone] .meedget_calc_submit").click(function () {
         $("div[data-step=phone]").hide();
         $("div[data-step=finish]").show();
         $(window).scrollTop(0);
     });
-    $("div[data-step=phone] .meedget_back_link").click(function () {
-        $("div[data-step=phone]").hide();
-        $("div[data-step=calc]").show();
-        $(window).scrollTop(0);
-    });
 
-    // Step phone
+    // Step finish
+
 });
