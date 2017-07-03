@@ -1,8 +1,4 @@
 jQuery(function ($) {
-    function sendForm() {
-        $.post();
-    }
-
     var wnd = $("#widget_meedget");
     $(".close_meedget", wnd).click(function () {
         wnd.find("ul").hide();
@@ -112,7 +108,7 @@ jQuery(function ($) {
             if (!phone.match(/[0-9-()+]{3,20}/g)) {
                 alert("Номер телефона не корректен");
             } else {
-                sendForm();
+                $.post('file.php', $('#calc_form').serialize());
                 $("div[data-step=phone]").hide();
                 $("div[data-step=finish]").show();
                 $(window).scrollTop(0);
