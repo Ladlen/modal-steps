@@ -1,3 +1,10 @@
+body {
+    color: #999999;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    text-rendering: optimizelegibility;
+}
+
 #widget_meedget {
     color: #999999;
     /*font-family: "Raleway",sans-serif;*/
@@ -285,7 +292,7 @@ a.meedget_close_link {
 }
 
 #meedget_block input, .meedget_copy p, .meedget_step {
-    font-family: 'Open Sans Light','Open Sans',Arial !important;
+    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
 }
 
 .meedget_step {
@@ -293,7 +300,7 @@ a.meedget_close_link {
     color: #fff !important;
     font-size: 18px !important;
     font-weight: 100 !important;
-    background: url(https://meedget.ru/images/meedget_step.png) right no-repeat rgb(15,138,99) !important;
+    background: url(https://meedget.ru/images/meedget_step.png) right no-repeat rgb(15, 138, 99) !important;
     padding: 6px 19px 0 85px !important;
     margin: 19px 0 0 -85px !important;
     width: 25% !important;
@@ -308,7 +315,7 @@ a.meedget_close_link {
     background: #fff;
     height: 0;
     border: 19px solid transparent;
-    border-left-color: rgb(15,138,99);
+    border-left-color: rgb(15, 138, 99);
     border-right: 0;
 }
 
@@ -325,7 +332,7 @@ a.meedget_close_link {
 
 #meedget_block h3 {
     font-size: 18px !important;
-    font-family: 'Open Sans Semibold','Open Sans' !important;
+    font-family: 'Open Sans Semibold', 'Open Sans' !important;
     font-weight: 600 !important;
     margin: 19px 0 9px !important;
 }
@@ -357,7 +364,7 @@ a.meedget_close_link {
     max-width: 110px !important;
     max-height: 110px !important;
     margin: 0 15px !important;
-    border: 1px dotted rgb(15,138,99) !important;
+    border: 1px dotted rgb(15, 138, 99) !important;
     padding: 10px;
     cursor: pointer;
 }
@@ -371,7 +378,7 @@ a.meedget_close_link {
 }
 
 #meedget_block input, .meedget_copy p, .meedget_step {
-    font-family: 'Open Sans Light','Open Sans',Arial !important;
+    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
 }
 
 #meedget_block input {
@@ -432,7 +439,7 @@ a.meedget_close_link {
     padding: 50px 0 0 !important;
     width: 100%;
     float: left !important;
-    font-family: 'Open Sans Light','Open Sans',Arial !important;
+    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
     cursor: pointer !important;
 }
 
@@ -442,8 +449,8 @@ a.meedget_close_link {
 }*/
 
 #meedget_block input[type="radio"]:checked + label {
-    color: rgb(15,138,99) !important;
-    font-family: 'Open Sans Light','Open Sans',Arial !important;
+    color: rgb(15, 138, 99) !important;
+    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
     background: url(https://meedget.ru/images/radio_active_icon.png) no-repeat !important;
 }
 
@@ -454,7 +461,7 @@ a.meedget_close_link {
 
 #meedget_block h3 {
     font-size: 18px !important;
-    font-family: 'Open Sans Semibold','Open Sans' !important;
+    font-family: 'Open Sans Semibold', 'Open Sans' !important;
     font-weight: 600 !important;
     margin: 19px 0 9px !important;
 }
@@ -487,7 +494,7 @@ a.meedget_close_link {
     max-width: 110px !important;
     max-height: 110px !important;
     margin: 0 15px !important;
-    border: 1px dotted rgb(15,138,99) !important;
+    border: 1px dotted rgb(15, 138, 99) !important;
     padding: 10px;
     cursor: pointer;
 }
@@ -533,7 +540,7 @@ a.meedget_close_link {
     padding: 50px 0 0 !important;
     width: 100%;
     float: left !important;
-    font-family: 'Open Sans Light','Open Sans',Arial !important;
+    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
     cursor: pointer !important;
 }
 
@@ -594,7 +601,7 @@ a.meedget_close_link {
 }
 
 #meedget_block input, .meedget_copy p, .meedget_step {
-    font-family: 'Open Sans Light','Open Sans',Arial !important;
+    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
 }
 
 .meedget_copy p {
@@ -649,7 +656,7 @@ a.meedget_back, button.meedget_step_button {
 a.meedget_back {
     float: left !important;
     color: #444 !important;
-    font-family: 'Open Sans Light','Open Sans',Arial !important;
+    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
     background: url(https://meedget.ru/images/back_icon.png) left no-repeat !important;
     padding: 0 0 0 17px !important;
     text-decoration: none !important;
@@ -686,9 +693,9 @@ button.meedget_calc_next {
 button.meedget_step_button {
     float: left !important;
     height: 44px !important;
-    background: rgb(15,138,99) !important;
+    background: rgb(15, 138, 99) !important;
     color: #fff !important;
-    font-family: 'Open Sans Light','Open Sans',Arial !important;
+    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
     border: none !important;
     cursor: pointer !important;
     padding: 0 17px !important;
@@ -696,7 +703,7 @@ button.meedget_step_button {
 }
 
 #meedget_block button, #meedget_block ul {
-    font-family: 'Open Sans Light','Open Sans',Arial !important;
+    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
 }
 
 #meedget_block button, #meedget_phone_input {
@@ -710,7 +717,7 @@ button.meedget_step_button {
     background-image: url(https://meedget.ru/images/button_icon.png);
     background-position: left !important;
     background-repeat: no-repeat !important;
-    background-color: rgb(15,138,99) !important;
+    background-color: rgb(15, 138, 99) !important;
     color: #fff !important;
     font-size: 18px !important;
     border: none !important;
@@ -734,8 +741,8 @@ button.meedget_step_button {
 }
 
 #meedget_block input[type="radio"]:checked + label {
-    color: rgb(15,138,99) !important;
-    font-family: 'Open Sans Light','Open Sans',Arial !important;
+    color: rgb(15, 138, 99) !important;
+    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
     background: url(https://meedget.ru/images/radio_active_icon.png) no-repeat top center !important;
 }
 
@@ -745,7 +752,47 @@ button.meedget_step_button {
 }
 
 #meedget_block input[type="checkbox"]:checked + label {
-    color: rgb(15,138,99) !important;
-    font-family: 'Open Sans Light','Open Sans',Arial !important;
+    color: rgb(15, 138, 99) !important;
+    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
     background: url(https://meedget.ru/images/checkbox_active_icon.png) no-repeat !important;
 }
+
+.meed_modal {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+    font-family: NeoSansProRegular,sans-serif;
+    font-size: 14px;
+    left: 30%;
+    /*line-height: 14px;*/
+    padding: 5px;
+    position: fixed;
+    right: 30%;
+    top: 5%;
+    z-index: 2147483647;
+    line-height: 16px;
+    padding-top: 10px;
+}
+
+.meed_modal_title {
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+.meed_modal_body {
+    color: #333;
+}
+
+.meed_modal_but {
+    background: grey none repeat scroll 0 0;
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;
+    float: right;
+    height: 30px;
+    width: 100%;
+}
+

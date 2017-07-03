@@ -1,4 +1,8 @@
 jQuery(function ($) {
+    function sendForm() {
+        $.post();
+    }
+
     var wnd = $("#widget_meedget");
     $(".close_meedget", wnd).click(function () {
         wnd.find("ul").hide();
@@ -74,7 +78,7 @@ jQuery(function ($) {
         setTimeout(function () {
             $("div[data-step=calc]").hide();
             $("div[data-step=phone]").show();
-        }, 3000);
+        }, 2000);
     });
     $("div[data-step=4] .meedget_back_link").click(function () {
         $("div[data-step=4]").hide();
@@ -97,9 +101,23 @@ jQuery(function ($) {
 
     // Step phone
     $("div[data-step=phone] .meedget_calc_submit").click(function () {
-        $("div[data-step=phone]").hide();
-        $("div[data-step=finish]").show();
-        $(window).scrollTop(0);
+        var phone = $.trim($("#meedget_phone_input").val());
+        $("#meedget_phone_input").val(phone);
+        if (!phone) {
+            alert("Введите пожалуйста телефон");
+        } else {
+            ///^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s\./0-9]*$/g
+            //var phoneNumber = /[0-9-()+]{3,20}/;
+            phone = phone.replace(/\s/g, '');
+            if (!phone.match(/[0-9-()+]{3,20}/g)) {
+                alert("Номер телефона не корректен");
+            } else {
+                sendForm();
+                $("div[data-step=phone]").hide();
+                $("div[data-step=finish]").show();
+                $(window).scrollTop(0);
+            }
+        }
     });
 
     // Step finish
