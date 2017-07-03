@@ -1,6 +1,6 @@
 body {
     color: #999999;
-    font-family: "Raleway", sans-serif;
+    /*font-family: "Raleway", sans-serif;*/
     font-weight: 400;
     text-rendering: optimizelegibility;
 }
@@ -22,14 +22,10 @@ body {
 
 #widget_right_panel {
     color: #999999;
-    /*font-family: "Raleway",sans-serif;*/
     font-weight: 400;
     text-rendering: optimizelegibility;
     overflow: visible !important;
-}
-
-#widget_right_panel {
-    font-family: Arial;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 14px;
     position: fixed;
     right: 0;
@@ -181,9 +177,9 @@ a.close_meedget {
 
 a.close_meedget, a.open_right_panel {
     float: right !important;
-    background-color: rgb(15, 138, 99) !important;
-    border-left: 1px solid rgb(35, 158, 119) !important;
-    border-bottom: 1px solid rgb(35, 158, 119) !important;
+    background-color: rgb(15, 138, 99);
+    border-left: 1px solid rgb(35, 158, 119);
+    border-bottom: 1px solid rgb(35, 158, 119);
     background-image: url(https://meedget.ru/images/menu_icon.png);
     text-decoration: none !important;
     background-repeat: no-repeat;
@@ -201,7 +197,7 @@ a.close_meedget, a.open_right_panel {
 
 /* open_right_panel */
 #widget_right_panel.roundcorner a.open_right_panel {
-    border-bottom-left-radius: 10px;
+    /*border-bottom-left-radius: 10px;*/
     border-top-left-radius: 10px;
 }
 
@@ -222,7 +218,7 @@ a.open_right_panel {
     margin: 0 !important;
 }
 
-a.close_meedget, a.open_right_panel {
+/*a.close_meedget, a.open_right_panel {
     float: right !important;
     background-color: rgb(15, 138, 99) !important;
     border-left: 1px solid rgb(35, 158, 119) !important;
@@ -230,7 +226,7 @@ a.close_meedget, a.open_right_panel {
     background-image: url(https://meedget.ru/images/menu_icon.png);
     text-decoration: none !important;
     background-repeat: no-repeat;
-}
+}*/
 
 /*#widget_right_panel ul > li, #widget_right_panel ul > li > a, a.close_meedget, a.meedget_back_link, a.meedget_call_link, a.meedget_next, a.meedget_prev, a.open_right_panel {
     border-bottom-style: none !important;

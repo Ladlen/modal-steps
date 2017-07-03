@@ -8,9 +8,10 @@ jQuery(function ($) {
         });
     });
     $(".open_right_panel", wnd).click(function () {
-        wnd.find("ul").show();
+        /*wnd.find("ul").show();*/
         wnd.find(".open_right_panel").hide();
-        wnd.find(".close_meedget").show();
+        //wnd.find(".close_meedget").show();
+        wnd.animate({right: 0});
     });
     $(".meedget_calc", wnd).click(function () {
         $("div[data-step]").hide();
