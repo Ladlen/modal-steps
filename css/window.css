@@ -1,6 +1,5 @@
 body {
     color: #999999;
-    /*font-family: "Raleway", sans-serif;*/
     font-weight: 400;
     text-rendering: optimizelegibility;
 }
@@ -33,7 +32,7 @@ body {
     z-index: 10000;
 }
 
-#meedget_block, #meedget_block div, #widget_right_panel, a.close_meedget {
+#calculator_block, #calculator_block div, #widget_right_panel, a.close_calculator {
     box-sizing: content-box;
 }
 
@@ -68,11 +67,7 @@ body {
     text-align: left;
 }
 
-/*#widget_right_panel ul > li, #widget_right_panel ul > li > a, a.close_meedget, a.meedget_back_link, a.meedget_call_link, a.meedget_next, a.meedget_prev, a.open_right_panel {
-    border-bottom-style: none;
-}*/
-
-#widget_right_panel ul > li, a.close_meedget {
+#widget_right_panel ul > li, a.close_calculator {
     line-height: normal;
 }
 
@@ -80,7 +75,7 @@ body {
     border-top-left-radius: 13px;
 }
 
-#widget_right_panel ul > li, a.close_meedget {
+#widget_right_panel ul > li, a.close_calculator {
     line-height: normal;
 }
 
@@ -92,35 +87,32 @@ a, a.inverted, a.white {
     transition: all 0.35s ease 0s;
 }
 
-a.meedget_calc {
+a.calculator_calc {
     border-bottom: 0 none;
 }
 
-/*#widget_right_panel ul > li, #widget_right_panel ul > li > a, a.close_meedget, a.meedget_back_link, a.meedget_call_link, a.meedget_next, a.meedget_prev, a.open_right_panel {
-    border-bottom-style: none;
-}*/
-
-#widget_right_panel.meedgetwhite ul > li > a {
+#widget_right_panel.calculatorwhite ul > li > a {
     background-image: url("../img/menu_icon2.png");
     background-repeat: no-repeat;
     color: #fff;
-    padding: 17px 0 17px 17px;
+    /*padding: 17px 0 17px 17px;*/
+    padding: 17px 0 17px 37px !important;
 }
 
-#widget_right_panel ul > li > a {
+/*#widget_right_panel ul > li > a {
     background-image: url("../img/menu_icon.png");
     background-repeat: no-repeat;
     color: #444;
     padding: 17px 0 17px 37px !important;
     text-decoration: none;
     width: 100%;
-}
+}*/
 
-#widget_right_panel.meedgetwhite a, #widget_right_panel.meedgetwhite ul > li span {
+#widget_right_panel.calculatorwhite a, #widget_right_panel.calculatorwhite ul > li span {
     color: #fff;
 }
 
-#widget_right_panel.meedgetwhite a, #widget_right_panel.meedgetwhite ul > li span {
+#widget_right_panel.calculatorwhite a, #widget_right_panel.calculatorwhite ul > li span {
     color: #fff;
 }
 
@@ -135,7 +127,7 @@ a.meedget_calc {
     color: #444;
 }
 
-#widget_right_panel.meedgetwhite a, #widget_right_panel.meedgetwhite ul > li span {
+#widget_right_panel.calculatorwhite a, #widget_right_panel.calculatorwhite ul > li span {
     color: #fff;
 }
 
@@ -143,29 +135,30 @@ a.meedget_calc {
     border-bottom-left-radius: 13px;
 }
 
-a.meedget_gallery {
+a.calculator_gallery {
     background-position: 0 -162px;
 }
 
-/* close_meedget */
-#widget_right_panel.roundcorner a.close_meedget {
+/* close_calculator */
+#widget_right_panel.roundcorner a.close_calculator {
     border-bottom-left-radius: 10px;
 }
 
-#widget_right_panel.meedgetwhite a.close_meedget {
-    background-position: 7px -344px;
+#widget_right_panel.calculatorwhite a.close_calculator {
+    background-position: 7px -342px;
+    background-image: url(../img/menu_icon2.png) !important;
 }
 
-#widget_right_panel.meedgetwhite a.close_meedget, #widget_right_panel.meedgetwhite a.open_right_panel, #widget_right_panel.meedgetwhite.meedgetleft a.close_meedget, #widget_right_panel.meedgetwhite.meedgetleft a.open_right_panel {
+/*#widget_right_panel.calculatorwhite a.close_calculator, #widget_right_panel.calculatorwhite a.open_right_panel, #widget_right_panel.calculatorwhite.calculatorleft a.close_calculator, #widget_right_panel.calculatorwhite.calculatorleft a.open_right_panel {
     background-image: url(../img/menu_icon2.png) !important;
     color: #FFF !important;
-}
+}*/
 
-#widget_right_panel ul > li, a.close_meedget {
+#widget_right_panel ul > li, a.close_calculator {
     line-height: normal !important;
 }
 
-a.close_meedget {
+a.close_calculator {
     background-position: 7px -344px;
     color: #444;
     height: 23px;
@@ -175,7 +168,7 @@ a.close_meedget {
     margin: -1px 0 0 !important;
 }
 
-a.close_meedget, a.open_right_panel {
+a.close_calculator, a.open_right_panel {
     float: right !important;
     background-color: rgb(15, 138, 99);
     border-left: 1px solid rgb(35, 158, 119);
@@ -185,15 +178,11 @@ a.close_meedget, a.open_right_panel {
     background-repeat: no-repeat;
 }
 
-/*#widget_right_panel ul > li, #widget_right_panel ul > li > a, a.close_meedget, a.meedget_back_link, a.meedget_call_link, a.meedget_next, a.meedget_prev, a.open_right_panel {
-    border-bottom-style: none !important;
-}*/
-
-#meedget_block, #meedget_block div, #widget_right_panel, a.close_meedget {
+#calculator_block, #calculator_block div, #widget_right_panel, a.close_calculator {
     box-sizing: content-box !important;
 }
 
-/* //close_meedget */
+/* //close_calculator */
 
 /* open_right_panel */
 #widget_right_panel.roundcorner a.open_right_panel {
@@ -201,14 +190,15 @@ a.close_meedget, a.open_right_panel {
     border-top-left-radius: 10px;
 }
 
-#widget_right_panel.meedgetwhite a.open_right_panel {
-    background-position: 7px -315px;
+#widget_right_panel.calculatorwhite a.open_right_panel {
+    background-position: 5px -315px;
+    background-image: url(../img/menu_icon2.png);
 }
 
-#widget_right_panel.meedgetwhite a.close_meedget, #widget_right_panel.meedgetwhite a.open_right_panel, #widget_right_panel.meedgetwhite.meedgetleft a.close_meedget, #widget_right_panel.meedgetwhite.meedgetleft a.open_right_panel {
+/*#widget_right_panel.calculatorwhite a.close_calculator, #widget_right_panel.calculatorwhite a.open_right_panel, #widget_right_panel.calculatorwhite.calculatorleft a.close_calculator, #widget_right_panel.calculatorwhite.calculatorleft a.open_right_panel {
     background-image: url(../img/menu_icon2.png) !important;
     color: #FFF !important;
-}
+}*/
 
 a.open_right_panel {
     line-height: normal !important;
@@ -218,23 +208,9 @@ a.open_right_panel {
     margin: 0 !important;
 }
 
-/*a.close_meedget, a.open_right_panel {
-    float: right !important;
-    background-color: rgb(15, 138, 99) !important;
-    border-left: 1px solid rgb(35, 158, 119) !important;
-    border-bottom: 1px solid rgb(35, 158, 119) !important;
-    background-image: url(https://meedget.ru/images/menu_icon.png);
-    text-decoration: none !important;
-    background-repeat: no-repeat;
-}*/
-
-/*#widget_right_panel ul > li, #widget_right_panel ul > li > a, a.close_meedget, a.meedget_back_link, a.meedget_call_link, a.meedget_next, a.meedget_prev, a.open_right_panel {
-    border-bottom-style: none !important;
-}*/
-
 /* //open_right_panel */
 
-#meedget_popup {
+#calculator_popup {
     position: absolute !important;
     width: 100% !important;
     min-height: 100% !important;
@@ -242,11 +218,7 @@ a.open_right_panel {
     top: 0;
 }
 
-/*#meedget_block, #meedget_carousel-wrapper, #widget_right_panel, .meedget_center, .meedget_copy, .meedget_images {
-    overflow: hidden !important;
-}*/
-
-#meedget_block {
+#calculator_block {
     position: relative !important;
     /*width: 472px !important;*/
     max-width: 490px !important;
@@ -257,21 +229,20 @@ a.open_right_panel {
     margin: 3% auto !important;
 }
 
-#meedget_block {
-    font-family: Arial;
+#calculator_block {
     box-shadow: 0 0 12px rgba(0, 0, 0, .2);
 }
 
-#meedget_block.roundcorner {
+#calculator_block.roundcorner {
     border-radius: 13px;
 }
 
-a.meedget_close_link {
+a.calculator_close_link {
     margin-right: 20px !important;
     z-index: 999 !important;
 }
 
-a.meedget_close_link {
+a.calculator_close_link {
     position: absolute !important;
     right: 0 !important;
     background: url(../img/close_icon.png) no-repeat !important;
@@ -279,7 +250,7 @@ a.meedget_close_link {
     margin: 0 29px 0 0 !important;
 }
 
-#meedget_block h2 {
+#calculator_block h2 {
     color: #444 !important;
     font-size: 32px !important;
     font-family: 'Open Sans Light', 'Open Sans', Arial !important;
@@ -289,25 +260,25 @@ a.meedget_close_link {
     padding: 0 !important;
 }
 
-#meedget_block, #meedget_block div, #widget_right_panel, a.close_meedget {
+#calculator_block, #calculator_block div, #widget_right_panel, a.close_calculator {
     box-sizing: content-box !important;
 }
 
-#meedget_block div {
+#calculator_block div {
     float: left !important;
     width: 100%;
 }
 
-#meedget_block input, .meedget_copy p, .meedget_step {
+#calculator_block input, .copy_sign p, .calculator_step {
     font-family: 'Open Sans Light', 'Open Sans', Arial !important;
 }
 
-.meedget_step {
+.calculator_step {
     height: 31px !important;
     color: #fff !important;
     font-size: 18px !important;
     font-weight: 100 !important;
-    background: url(../img/meedget_step.png) right no-repeat rgb(15, 138, 99) !important;
+    background: url(../img/calculator_step.png) right no-repeat rgb(15, 138, 99) !important;
     padding: 6px 19px 0 85px !important;
     margin: 19px 0 0 -85px !important;
     width: 25% !important;
@@ -326,43 +297,43 @@ a.meedget_close_link {
     border-right: 0;
 }
 
-.meedget_inner {
+.calculator_inner {
     width: 100%;
     clear: both;
     float: left !important;
 }
 
-#meedget_block h3, #meedget_block ul {
+#calculator_block h3, #calculator_block ul {
     color: #666 !important;
     line-height: 22px !important;
 }
 
-#meedget_block h3 {
+#calculator_block h3 {
     font-size: 18px !important;
-    font-family: 'Open Sans Semibold', 'Open Sans' !important;
+    font-family: 'Open Sans Semibold', 'Open Sans', sans-serif !important;
     font-weight: 600 !important;
     margin: 19px 0 9px !important;
 }
 
-#meedget_block p, p.meedget_h2, p.meedget_h3 {
+#calculator_block p, p.calculator_h2, p.calculator_h3 {
     padding: 0 !important;
 }
 
-.meedget_center {
+.calculator_center {
     display: table !important;
     margin: 0 auto !important;
 }
 
-#meedget_block, #meedget_block div, #widget_right_panel, a.close_meedget {
+#calculator_block, #calculator_block div, #widget_right_panel, a.close_calculator {
     box-sizing: content-box !important;
 }
 
-#meedget_block div {
+#calculator_block div {
     float: left !important;
     width: 100%;
 }
 
-.meedget_block img {
+.calculator_block img {
     float: left !important;
     max-width: 110px !important;
     max-height: 110px !important;
@@ -372,19 +343,19 @@ a.meedget_close_link {
     cursor: pointer;
 }
 
-#meedget_block img {
+#calculator_block img {
     border: none !important;
 }
 
-.meedget_block input {
+.calculator_block input {
     margin: 10px 17px 0 0 !important;
 }
 
-#meedget_block input, .meedget_copy p, .meedget_step {
-    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
+#calculator_block input, .copy_sign p, .calculator_step {
+    font-family: 'Open Sans Light', 'Open Sans', Arial, sans-serif !important;
 }
 
-#meedget_block input {
+#calculator_block input {
     float: left !important;
     height: 40px !important;
     color: #b4b4b4 !important;
@@ -396,15 +367,15 @@ a.meedget_close_link {
     margin: 25px 17px 0 0;
 }
 
-#meedget_block input[type="checkbox"], #meedget_block input[type="radio"] {
+#calculator_block input[type="checkbox"], #calculator_block input[type="radio"] {
     display: none !important;
 }
 
-#meedget_block input[type="checkbox"], #meedget_block input[type="radio"] {
+#calculator_block input[type="checkbox"], #calculator_block input[type="radio"] {
     margin-left: 59px !important;
 }
 
-.meedget_label_radio label {
+.calculator_label_radio label {
     font-size: 16px !important;
     color: #444 !important;
     cursor: pointer !important;
@@ -414,85 +385,76 @@ a.meedget_close_link {
     margin-right: 25px !important;
 }
 
-#meedget_block label, a.meedget_back_link, a.meedget_prev {
+#calculator_block label, a.calculator_back_link, a.calculator_prev {
     float: left !important;
 }
 
-#meedget_block label {
+#calculator_block label {
     font-size: 15px !important;
     color: #444 !important;
 }
 
-#meedget_block label, .meedget_label_radio label {
+#calculator_block label, .calculator_label_radio label {
     clear: none !important;
 }
 
-#meedget_block a, #meedget_block label, #meedget_block ol, #meedget_block sup, #meedget_block ul, .meedget_copy a, .meedget_copy p, .meedget_label_radio label {
+#calculator_block a, #calculator_block label, #calculator_block ol, #calculator_block sup, #calculator_block ul, .copy_sign a, .copy_sign p, .calculator_label_radio label {
     font-weight: 400 !important;
 }
 
-#meedget_block label {
+#calculator_block label {
     line-height: 24px;
     margin-left: 10px;
     height: 72px;
 }
 
-#meedget_block input[type="checkbox"] + label, #meedget_block input[type="radio"] + label {
+#calculator_block input[type="checkbox"] + label, #calculator_block input[type="radio"] + label {
     text-align: center !important;
     padding: 50px 0 0 !important;
     width: 100%;
     float: left !important;
-    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
+    font-family: 'Open Sans Light', 'Open Sans', Arial, sans-serif !important;
     cursor: pointer !important;
 }
 
-/*#meedget_block input[type="radio"] + label {
-    background: url(https://meedget.ru/images/radio_icon.png) no-repeat !important;
-    color: #666 !important;
-}*/
-
-#meedget_block input[type="radio"]:checked + label {
+#calculator_block input[type="radio"]:checked + label {
     color: rgb(15, 138, 99) !important;
-    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
+    font-family: 'Open Sans Light', 'Open Sans', Arial, sans-serif !important;
     background: url(../img/radio_active_icon.png) no-repeat !important;
 }
 
-#meedget_block h3, #meedget_block ul {
+#calculator_block h3, #calculator_block ul {
     color: #666 !important;
     line-height: 22px !important;
 }
 
-#meedget_block h3 {
+#calculator_block h3 {
     font-size: 18px !important;
-    font-family: 'Open Sans Semibold', 'Open Sans' !important;
+    font-family: 'Open Sans Semibold', 'Open Sans', sans-serif !important;
     font-weight: 400 !important;
     margin: 19px 0 9px !important;
 }
 
-#meedget_block p, p.meedget_h2, p.meedget_h3 {
+#calculator_block p, p.calculator_h2, p.calculator_h3 {
     padding: 0 !important;
 }
 
-/*#meedget_block, #meedget_carousel-wrapper, #widget_right_panel, .meedget_center, .meedget_copy, .meedget_images {
-    overflow: hidden !important;
-}*/
-
-.meedget_center {
+.calculator_center {
     display: table !important;
     margin: 0 auto !important;
 }
 
-#meedget_block, #meedget_block div, #widget_right_panel, a.close_meedget {
+#calculator_block, #calculator_block div, #widget_right_panel, a.close_calculator {
     box-sizing: content-box !important;
 }
 
-#meedget_block div {
+#calculator_block div {
     float: none !important;
     width: 100%;
     display: inline-block;
 }
 
-.meedget_block img {
+.calculator_block img {
     float: left !important;
     max-width: 110px !important;
     max-height: 110px !important;
@@ -502,11 +464,11 @@ a.meedget_close_link {
     cursor: pointer;
 }
 
-#meedget_block img {
+#calculator_block img {
     border: none !important;
 }
 
-.meedget_label_radio label {
+.calculator_label_radio label {
     font-size: 16px !important;
     color: #444 !important;
     cursor: pointer !important;
@@ -516,29 +478,29 @@ a.meedget_close_link {
     margin-right: 25px !important;
 }
 
-#meedget_block label, a.meedget_back_link, a.meedget_prev {
+#calculator_block label, a.calculator_back_link, a.calculator_prev {
     float: left !important;
 }
 
-#meedget_block label {
+#calculator_block label {
     font-size: 15px !important;
     color: #444 !important;
 }
 
-#meedget_block label, .meedget_label_radio label {
+#calculator_block label, .calculator_label_radio label {
     clear: none !important;
 }
 
-#meedget_block a, #meedget_block label, #meedget_block ol, #meedget_block sup, #meedget_block ul, .meedget_copy a, .meedget_copy p, .meedget_label_radio label {
+#calculator_block a, #calculator_block label, #calculator_block ol, #calculator_block sup, #calculator_block ul, .copy_sign a, .copy_sign p, .calculator_label_radio label {
     font-weight: 400 !important;
 }
 
-#meedget_block label {
+#calculator_block label {
     line-height: 24px;
     margin-left: 10px;
 }
 
-#meedget_block input[type="checkbox"] + label, #meedget_block input[type="radio"] + label {
+#calculator_block input[type="checkbox"] + label, #calculator_block input[type="radio"] + label {
     text-align: center !important;
     padding: 50px 0 0 !important;
     width: 100%;
@@ -547,63 +509,63 @@ a.meedget_close_link {
     cursor: pointer !important;
 }
 
-#meedget_block input[type="radio"] + label {
+#calculator_block input[type="radio"] + label {
     background: url(../img/radio_icon.png) no-repeat top center !important;
     color: #666 !important;
 }
 
-.meedget_block {
+.calculator_block {
     width: 148px !important;
     margin: 15px 14px 0 0 !important;
 }
 
-#meedget_block .meedget_block img {
+#calculator_block .calculator_block img {
     box-sizing: border-box !important;
     -moz-box-sizing: border-box !important;
     -webkit-box-sizing: border-box !important;
 }
 
-#meedget_block label {
+#calculator_block label {
     margin: 0 !important;
 }
 
-.meedget_copy {
+.copy_sign {
     background: #dedede none repeat scroll 0 0;
     height: 32px;
     margin: 50px 0 0 -85px;
     width: 682px;
 }
 
-.meedget_copy {
+.copy_sign {
     width: 682px !important;
     height: 32px !important;
     background: #dedede !important;
     margin: 50px 0 0 -85px !important;
 }
 
-.meedget_copy {
+.copy_sign {
     font-size: 12px !important;
     padding: 6px 0 0 !important;
 }
 
-.meedget_copy {
+.copy_sign {
     float: left !important;
     border-top: 1px solid #e8e9eb !important;
 }
 
-.meedget_block p, .meedget_copy p {
+.calculator_block p, .copy_sign p {
     text-align: center !important;
 }
 
-#meedget_block a, #meedget_block label, #meedget_block ol, #meedget_block sup, #meedget_block ul, .meedget_copy a, .meedget_copy p, .meedget_label_radio label {
+#calculator_block a, #calculator_block label, #calculator_block ol, #calculator_block sup, #calculator_block ul, .copy_sign a, .copy_sign p, .calculator_label_radio label {
     font-weight: 400 !important;
 }
 
-#meedget_block input, .meedget_copy p, .meedget_step {
+#calculator_block input, .copy_sign p, .calculator_step {
     font-family: 'Open Sans Light', 'Open Sans', Arial !important;
 }
 
-.meedget_copy p {
+.copy_sign p {
     font-size: 13px !important;
     color: #B2B2B2 !important;
     margin-right: 40px !important;
@@ -611,7 +573,7 @@ a.meedget_close_link {
     margin-top: 6px !important;
 }
 
-#meedget_block p, p.meedget_h2, p.meedget_h3 {
+#calculator_block p, p.calculator_h2, p.calculator_h3 {
     padding: 0 !important;
 }
 
@@ -631,11 +593,11 @@ a, a.inverted, a.white {
     outline: none;
 }
 
-#meedget_block label, a.meedget_back_link, a.meedget_prev {
+#calculator_block label, a.calculator_back_link, a.calculator_prev {
     float: left !important;
 }
 
-a.meedget_back_link {
+a.calculator_back_link {
     font-size: 14px !important;
     background: url(../img/back_link_icon.png) left no-repeat !important;
     text-decoration: none !important;
@@ -643,74 +605,74 @@ a.meedget_back_link {
     margin-top: 12px !important;
 }
 
-a.meedget_back_link {
+a.calculator_back_link {
     margin: 12px 0;
 }
 
-a.meedget_back, button.meedget_step_button {
+a.calculator_back, button.calculator_step_button {
     font-size: 18px !important;
     font-weight: 100 !important;
 }
 
-a.meedget_back {
+a.calculator_back {
     float: left !important;
     color: #444 !important;
-    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
+    font-family: 'Open Sans Light', 'Open Sans', Arial, sans-serif !important;
     background: url(../img/back_icon.png) left no-repeat !important;
     padding: 0 0 0 17px !important;
     text-decoration: none !important;
     margin: 35px 17px 0 0 !important;
 }
 
-#meedget_block a {
+#calculator_block a {
     color: #444 !important;
     text-decoration: none !important;
 }
 
-#meedget_block a, #meedget_block label, #meedget_block ol, #meedget_block sup, #meedget_block ul, .meedget_copy a, .meedget_copy p, .meedget_label_radio label {
+#calculator_block a, #calculator_block label, #calculator_block ol, #calculator_block sup, #calculator_block ul, .copy_sign a, .copy_sign p, .calculator_label_radio label {
     font-weight: 400 !important;
 }
 
-#meedget_block a {
+#calculator_block a {
     color: #444 !important;
     text-decoration: none !important;
 }
 
-#meedget_block a, #meedget_block label, #meedget_block ol, #meedget_block sup, #meedget_block ul, .meedget_copy a, .meedget_copy p, .meedget_label_radio label {
+#calculator_block a, #calculator_block label, #calculator_block ol, #calculator_block sup, #calculator_block ul, .copy_sign a, .copy_sign p, .calculator_label_radio label {
     font-weight: 400 !important;
 }
 
-a.meedget_back, button.meedget_step_button {
+a.calculator_back, button.calculator_step_button {
     font-size: 18px !important;
     font-weight: 100 !important;
 }
 
-button.meedget_calc_next {
+button.calculator_calc_next {
     background-image: none !important;
 }
 
-button.meedget_step_button {
+button.calculator_step_button {
     float: left !important;
     height: 44px !important;
     background: rgb(15, 138, 99) !important;
     color: #fff !important;
-    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
+    font-family: 'Open Sans Light', 'Open Sans', Arial, sans-serif !important;
     border: none !important;
     cursor: pointer !important;
     padding: 0 17px !important;
     margin: 50px 0 0 !important;
 }
 
-#meedget_block button, #meedget_block ul {
-    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
+#calculator_block button, #calculator_block ul {
+    font-family: 'Open Sans Light', 'Open Sans', Arial, sans-serif !important;
 }
 
-#meedget_block button, #meedget_phone_input {
+#calculator_block button, #calculator_phone_input {
     float: left !important;
     font-weight: 100 !important;
 }
 
-#meedget_block button {
+#calculator_block button {
     height: 44px;
     position: inherit !important;
     background-image: url(../img/button_icon.png);
@@ -725,34 +687,34 @@ button.meedget_step_button {
     margin: 25px 0 0 !important;
 }
 
-.meedget_block {
+.calculator_block {
     margin-right: 0 !important;
     width: 141px !important;
 }
 
-.meedget_center {
+.calculator_center {
     text-align: center !important;
 }
 
-.meedget_copy {
+.copy_sign {
     position: relative !important;
     bottom: -7px !important;
 }
 
-#meedget_block input[type="radio"]:checked + label {
+#calculator_block input[type="radio"]:checked + label {
     color: rgb(15, 138, 99) !important;
-    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
+    font-family: 'Open Sans Light', 'Open Sans', Arial, sans-serif !important;
     background: url(../img/radio_active_icon.png) no-repeat top center !important;
 }
 
-#meedget_block input[type="checkbox"] + label {
+#calculator_block input[type="checkbox"] + label {
     background: url(../img/checkbox_icon.png) no-repeat !important;
     color: #666 !important;
 }
 
-#meedget_block input[type="checkbox"]:checked + label {
+#calculator_block input[type="checkbox"]:checked + label {
     color: rgb(15, 138, 99) !important;
-    font-family: 'Open Sans Light', 'Open Sans', Arial !important;
+    font-family: 'Open Sans Light', 'Open Sans', Arial, sans-serif !important;
     background: url(../img/checkbox_active_icon.png) no-repeat !important;
 }
 
@@ -802,11 +764,11 @@ button.meedget_step_button {
     border-bottom-left-radius: 0;
 }
 
-#meedget_block.roundcorner {
+#calculator_block.roundcorner {
     overflow: hidden;
 }
 
-.meedget_copy p {
+.copy_sign p {
     position: absolute;
     width: 100%;
 }
