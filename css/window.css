@@ -810,3 +810,7 @@ button.meedget_step_button {
     position: absolute;
     width: 100%;
 }
+
+#widget_right_panel ul > li:hover {
+    background-color: rgb(35,158,119) !important;
+}
