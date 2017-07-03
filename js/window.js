@@ -1,13 +1,15 @@
 jQuery(function ($) {
-    var wnd = $("#widget_meedget");
+    var wnd = $("#widget_right_panel");
     $(".close_meedget", wnd).click(function () {
-        wnd.find("ul").hide();
-        wnd.find(".close_meedget").hide();
-        wnd.find(".open_meedget").show();
+        //wnd.find("ul").hide();
+        //wnd.find(".close_meedget").hide();
+        wnd.animate({right: "-180px"}, function () {
+            wnd.find(".open_right_panel").fadeIn();
+        });
     });
-    $(".open_meedget", wnd).click(function () {
+    $(".open_right_panel", wnd).click(function () {
         wnd.find("ul").show();
-        wnd.find(".open_meedget").hide();
+        wnd.find(".open_right_panel").hide();
         wnd.find(".close_meedget").show();
     });
     $(".meedget_calc", wnd).click(function () {
